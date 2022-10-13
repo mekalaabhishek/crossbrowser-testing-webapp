@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="scripts.Login_page"/>
+      <class name="scripts.SkillAssessment"/>
+      <class name="scripts.PsychometricAssessment"/>
+      <class name="scripts.Postjobmanually"/>
+      <class name="scripts.Applyjob"/>
+      <class name="scripts.Applyjobdocx"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
