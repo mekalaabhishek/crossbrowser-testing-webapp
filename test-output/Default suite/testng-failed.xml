@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="scripts.Postjobmanually">
+      <class name="scripts.Salesrepbulkupload">
         <methods>
           <include name="postcondition"/>
-          <include name="precondition"/>
-          <include name="sendmail"/>
+          <include name="Sendmail"/>
+          <include name="Retailsenseaddingsalesrep"/>
           <include name="generateReport"/>
-          <include name="postjobmanullyscript"/>
+          <include name="initializeDriver"/>
         </methods>
-      </class> <!-- scripts.Postjobmanually -->
+      </class> <!-- scripts.Salesrepbulkupload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
