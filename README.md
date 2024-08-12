@@ -28,10 +28,12 @@ Before setting up the project, ensure you have the following installed:
 |  |  |  |--Initilize pages
 |  |  |  |--Java Mail
 |  |  |  |--Listeners
- 
 |  |  |  |--screenrecorder
 |  |  |  |--screenshot
 |  |  |  |--webactionutil
+|  |  |--pages
+|  |  |  |--Signin_pagenew
+
 |--src/test/java
 | |--scripts
 |  |  |--signin (testcases)
